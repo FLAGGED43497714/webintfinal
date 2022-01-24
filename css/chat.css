@@ -150,6 +150,7 @@ main header h3{
 }
 
 #chat{
+	width: 500px;
 	padding-left:0;
 	margin:0;
 	list-style-type:none;
