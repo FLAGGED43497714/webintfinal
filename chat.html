@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/chat.css">
   
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="container">
@@ -17,7 +18,7 @@
             </header>
             <ul>
                 <li>
-                    <img src="img/webcam1.png" alt="">
+                    <img src="img/webcam1.png" class="otherUserImg" onmouseover="hover(this);" onmouseout="unhover(this);">
                     <div>
                         <h2>Romain Bourgeois</h2>
                         <h3>
@@ -27,7 +28,7 @@
                     </div>
                 </li>
                 <li>
-                    <img src="img/webcam2.png" alt="">
+                    <img src="img/webcam2.png" class="yourImg">
                     <div>
                         <h2>You</h2>
                         <h3>
@@ -43,7 +44,7 @@
                 <img src="img/webcam1.png" alt="">
                 <div>
                     <h2>Chat with Romain</h2>
-                    <h3>already 1902 messages</h3>
+                    <h3>already 5 messages</h3>
                 </div>
                 <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1940306/ico_star.png" alt=""> -->
             </header>

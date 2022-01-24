@@ -70,14 +70,19 @@ aside li:hover{
 h2,h3{
 	margin:0;
 }
-aside li img{
+aside li img.otherUserImg{
   height: 300px;
   width: 300px;
-
-	/* border-radius:50%; */
 	margin-left:20px;
 	margin-right:8px;
 }
+
+aside li img.yourImg{
+	height: 100px;
+	width: 100px;
+	  margin-left:20px;
+	  margin-right:8px;
+  }
 aside li div{
 	display:inline-block;
 	vertical-align:top;
@@ -234,6 +239,7 @@ main footer a{
 	text-transform:uppercase;
 	font-weight:bold;
 	color:#6fbced;
+	background-color: #fff;
 	vertical-align:top;
 	margin-left:333px;
 	margin-top:5px;
